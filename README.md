@@ -68,3 +68,26 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+para flo
+write rafce y enter para crear un componente automaticamente.
+
+npm install react-scroll
+npm install react-icons --save
+npm install react-router-dom  
+npm install --save styled-components
+
+ npm i -g npm@latest
+
+ para iniciar el proyecto:
+  npx create-react-app react-website-smooth-scroll
+
+
+//poner en sidebarconteiner:
+
+  opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
+ top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
+
+ import { IconBase } from 'react-icons/lib';
